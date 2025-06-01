@@ -1,0 +1,97 @@
+body{
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(204, 175, 204, 1) 100%);
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1,p,label,h5,h6{
+    font-weight: normal;
+}
+
+div{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 50%;
+    position: fixed;
+    top: 14%;
+    left: 25%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.42);
+}
+
+table{
+    padding: 10px;
+    padding-top: 30px;
+}
+tr,th,td{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.k{
+    all: unset;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #f1cfde;
+    transition: all ease-in-out 0.3s;
+}
+
+.k:hover{
+    background-color: #EEAECA;
+    font-weight: 600;
+}
+
+input {
+    text-align: center;
+    padding: 3px;
+    border-radius: 7px;
+    border: 1px;
+}
+input:hover{
+    border: 2px;
+    cursor: pointer;
+}
+
+@media  (max-width: 2160px) {
+    div{
+        width: 50%;
+        left: 25%;
+    }
+    tr,th,td{
+        font-size: 15px;
+    }
+    p{
+        font-size: 19px;
+    }
+}
+
+@media  (max-width: 600px) {
+    div{
+        width: 100%;
+        top: 2%;
+        left: 0%;
+    }
+    tr,th,td{
+        font-size: 11px;
+    }
+    p{
+        font-size: 11   px;
+    }
+}
+
+@media  (max-width: 350px) {
+    div{
+        width: 100%;
+        top: 10%;
+        left: 0%;
+    }   
+    tr,th,td{
+        font-size: 9px;
+    }
+    p{
+        font-size: 11   px;
+    }
+}
